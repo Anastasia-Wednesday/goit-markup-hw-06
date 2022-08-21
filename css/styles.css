@@ -1066,6 +1066,8 @@ header {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+
+  position: absolute;
 }
 
 .modal-checkbox + .modal-checkbox-text::before {
@@ -1126,6 +1128,10 @@ header {
 
 .modal-checkbox-link:hover {
   color: #1e84d7;
+}
+
+.modal-item-button {
+  margin: 0;
 }
 
 .modal-submit-button {
